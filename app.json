@@ -2,6 +2,14 @@
   "expo": {
     "name": "expo-bare-latest",
     "slug": "expo-bare-latest",
-    "version": "1.0.0"
+    "version": "1.0.0",
+    "plugins": [
+      [
+        "expo-calendar",
+        {
+          "calendarPermission": "The app needs to access your calendar."
+        }
+      ]
+    ]
   }
 }
