@@ -1,26 +1,21 @@
 PODS:
   - boost (1.83.0)
   - DoubleConversion (1.1.6)
-  - EXAV (14.0.4):
-    - ExpoModulesCore
-    - ReactCommon/turbomodule/core
   - EXConstants (16.0.1):
     - ExpoModulesCore
-  - Expo (51.0.2):
+  - Expo (51.0.8):
     - ExpoModulesCore
   - ExpoAsset (10.0.6):
     - ExpoModulesCore
   - ExpoBackgroundFetch (12.0.1):
     - ExpoModulesCore
-  - ExpoCalendar (13.0.5):
-    - ExpoModulesCore
   - ExpoFileSystem (17.0.1):
     - ExpoModulesCore
-  - ExpoFont (12.0.4):
+  - ExpoFont (12.0.5):
     - ExpoModulesCore
-  - ExpoKeepAwake (13.0.1):
+  - ExpoKeepAwake (13.0.2):
     - ExpoModulesCore
-  - ExpoModulesCore (1.12.10):
+  - ExpoModulesCore (1.12.11):
     - DoubleConversion
     - glog
     - hermes-engine
@@ -43,6 +38,8 @@ PODS:
     - ReactCommon/turbomodule/bridging
     - ReactCommon/turbomodule/core
     - Yoga
+  - ExpoVideo (1.1.10):
+    - ExpoModulesCore
   - EXTaskManager (11.8.1):
     - ExpoModulesCore
     - UMAppLoader
@@ -1216,16 +1213,15 @@ PODS:
 DEPENDENCIES:
   - boost (from `../node_modules/react-native/third-party-podspecs/boost.podspec`)
   - DoubleConversion (from `../node_modules/react-native/third-party-podspecs/DoubleConversion.podspec`)
-  - EXAV (from `../node_modules/expo-av/ios`)
   - EXConstants (from `../node_modules/expo-constants/ios`)
   - Expo (from `../node_modules/expo`)
   - ExpoAsset (from `../node_modules/expo-asset/ios`)
   - ExpoBackgroundFetch (from `../node_modules/expo-background-fetch/ios`)
-  - ExpoCalendar (from `../node_modules/expo-calendar/ios`)
   - ExpoFileSystem (from `../node_modules/expo-file-system/ios`)
   - ExpoFont (from `../node_modules/expo-font/ios`)
   - ExpoKeepAwake (from `../node_modules/expo-keep-awake/ios`)
   - ExpoModulesCore (from `../node_modules/expo-modules-core`)
+  - ExpoVideo (from `../node_modules/expo-video/ios`)
   - EXTaskManager (from `../node_modules/expo-task-manager/ios`)
   - FBLazyVector (from `../node_modules/react-native/Libraries/FBLazyVector`)
   - fmt (from `../node_modules/react-native/third-party-podspecs/fmt.podspec`)
@@ -1292,8 +1288,6 @@ EXTERNAL SOURCES:
     :podspec: "../node_modules/react-native/third-party-podspecs/boost.podspec"
   DoubleConversion:
     :podspec: "../node_modules/react-native/third-party-podspecs/DoubleConversion.podspec"
-  EXAV:
-    :path: "../node_modules/expo-av/ios"
   EXConstants:
     :path: "../node_modules/expo-constants/ios"
   Expo:
@@ -1302,8 +1296,6 @@ EXTERNAL SOURCES:
     :path: "../node_modules/expo-asset/ios"
   ExpoBackgroundFetch:
     :path: "../node_modules/expo-background-fetch/ios"
-  ExpoCalendar:
-    :path: "../node_modules/expo-calendar/ios"
   ExpoFileSystem:
     :path: "../node_modules/expo-file-system/ios"
   ExpoFont:
@@ -1312,6 +1304,8 @@ EXTERNAL SOURCES:
     :path: "../node_modules/expo-keep-awake/ios"
   ExpoModulesCore:
     :path: "../node_modules/expo-modules-core"
+  ExpoVideo:
+    :path: "../node_modules/expo-video/ios"
   EXTaskManager:
     :path: "../node_modules/expo-task-manager/ios"
   FBLazyVector:
@@ -1425,16 +1419,15 @@ EXTERNAL SOURCES:
 SPEC CHECKSUMS:
   boost: d3f49c53809116a5d38da093a8aa78bf551aed09
   DoubleConversion: 76ab83afb40bddeeee456813d9c04f67f78771b5
-  EXAV: 774288fbb6d1f5e51c22a79401faa5b622af68b3
   EXConstants: 9a008dbf262550884e6280dea95b81b51f65ea6f
-  Expo: a615f2b4d9412683c7c63ce20b376a3ab0c8af83
+  Expo: c99f14ca53381d5399b88684c88e20ff7928d3c7
   ExpoAsset: 9b7433ecc5f1b608ccbb823492e062bde944abd2
   ExpoBackgroundFetch: a06c553ecaf0bade0acd691042d996b9ce926327
-  ExpoCalendar: 135beb39ea3795f854a4ea287a49f74c9203ce51
   ExpoFileSystem: 80bfe850b1f9922c16905822ecbf97acd711dc51
-  ExpoFont: 331cf28d549edc7b6300d3be19302fc5069d9bb1
-  ExpoKeepAwake: f3a7b0ff4b4911957264dad8cb584ef688326a22
-  ExpoModulesCore: 4c5576eec261d09549d78b751ccd62d94d4506ac
+  ExpoFont: 690b76008be824e47907f200cb0764870108dfd1
+  ExpoKeepAwake: 3b8815d9dd1d419ee474df004021c69fdd316d08
+  ExpoModulesCore: 4eb2165cde325c8c121d495bb8beb0da9b30c92e
+  ExpoVideo: f84f85068e04ab1148e92eaf6df111a8b6367b0f
   EXTaskManager: 79eddd6874d41785e61b5d76652da36b991e4ad0
   FBLazyVector: 898d14d17bf19e2435cafd9ea2a1033efe445709
   fmt: 4c2741a687cc09f0634a2e2c72a838b99f1ff120
